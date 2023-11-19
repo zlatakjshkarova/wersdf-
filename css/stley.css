@@ -1,0 +1,140 @@
+body,
+html {
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    background-image: url(../wer/qet.webp);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.porm {
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-image: url(../wer/1674325697_balthazar-club-p-kartinki-serdtse-estetika-oboi-3.jpg);
+    padding-left: 50px;
+    box-shadow: 0px 0px 150px 150px 0px black;
+    border-radius: 300px 5px 5px;
+    animation: scale 0.5s;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+.rtys:hover {
+    background-color: wheat;
+    color: hotpink;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100px;
+    justify-content: right;
+    align-items: center;
+
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+.red {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    animation: scale 0.6s;
+
+}
+
+.block-bg {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    background-image: url(../wer/кен.webp);
+    background-repeat: 1px;
+    background-size: cover;
+    background-position: 1px;
+}
+
+.block-bg2 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    background-image: url(../wer/zxc.webp);
+    background-repeat: on-repeat;
+    animation: scale2 0.9s;
+    background-size: cover;
+}
+
+@keyframes scale2 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.red2 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    animation: scale 0.8s;
+}
+
+.red3 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    animation: scale 0.9s;
+}
+
+.block-bg3 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    background-image: url(../wer/asd.webp);
+    background-repeat: 1px;
+    background-size: cover;
+    background-position: 1px;
+    animation: scale3;
+}
+
+
+
+
+@keyframes scale3 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.wrapper2 {
+    justify-content: left;
+}
